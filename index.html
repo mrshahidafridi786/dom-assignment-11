@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pakistan Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🇵🇰 Pakistan Weather</h1>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="Enter Pakistani city..."
+        />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div class="quick-cities">
+        <button class="city-btn">Peshawar</button>
+        <button class="city-btn">Lahore</button>
+        <button class="city-btn">Karachi</button>
+        <button class="city-btn">Islamabad</button>
+        <button class="city-btn">Quetta</button>
+        <button class="city-btn">Multan</button>
+      </div>
+
+      <div id="result" class="result-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
